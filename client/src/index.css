@@ -1,0 +1,85 @@
+/* ---------------- BASE RESET ---------------- */
+body {
+  background-color: #F9FAFB;
+  color: #111827;
+}
+
+/* ---------------- INPUT ---------------- */
+.input {
+  border: 1px solid #D1D5DB;
+  padding: 0.75rem;
+  border-radius: 1rem;
+  width: 100%;
+  outline: none;
+  transition: all 0.2s ease-in-out;
+}
+
+.input:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.15);
+}
+
+/* ---------------- BUTTON ---------------- */
+.btn {
+  background-color: #000;
+  color: #fff;
+  padding: 0.75rem 1rem;
+  border-radius: 1rem;
+  width: 100%;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.btn:hover {
+  background-color: #1f2937;
+}
+
+/* ---------------- CARD ---------------- */
+.card {
+  background-color: #fff;
+  border-radius: 1.5rem;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  transition: box-shadow 0.2s ease-in-out;
+}
+
+.card:hover {
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* ---------------- PRODUCT CARD ---------------- */
+.product-card {
+  background-color: #fff;
+  border-radius: 1.5rem;
+  overflow: hidden;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.06);
+  transition: box-shadow 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.product-card:hover {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.product-image {
+  width: 100%;
+  height: 13rem;
+  object-fit: cover;
+}
+
+.product-title {
+  font-size: 0.875rem;
+  font-weight: 500;
+  margin-top: 0.5rem;
+}
+
+.product-price {
+  font-weight: 700;
+  font-size: 1.125rem;
+}
+
+/* ---------------- SECTION TITLE ---------------- */
+.section-title {
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}

@@ -77,7 +77,7 @@ const Checkout = () => {
 
   try {
     // ✅ SEND DATA TO BACKEND
-    const res = await axios.post("http://localhost:5000/api/orders", {
+    const res = await axios.post("https://resin-store.onrender.com/api/orders", {
       customer: form,
       items: cart,
       total,

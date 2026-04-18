@@ -6,7 +6,7 @@ const Home = () => {
   const [products, setProducts] = useState([]);
 
   useEffect(() => {
-    axios.get("http://localhost:5000/api/products")
+    axios.get("https://resin-store.onrender.com/api/products")
       .then(res => setProducts(res.data));
   }, []);
 

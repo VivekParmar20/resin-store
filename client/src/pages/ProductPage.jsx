@@ -12,7 +12,7 @@ const ProductPage = () => {
   const [selected, setSelected] = useState("");
 
   useEffect(() => {
-    axios.get(`https://resin-store.onrender.com/api/products/api/products/${id}`)
+    axios.get(`https://resin-store.onrender.com/api/products/${id}`)
       .then(res => {
         setProduct(res.data);
         setSelected(res.data.images[0]);

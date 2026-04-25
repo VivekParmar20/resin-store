@@ -21,7 +21,7 @@ const Home = () => {
           <a href="#products" className="hero-btn">Shop Now</a>
         </div>
 
-        <div className="hero-image"></div>
+       
       </div>
 
       <div className="container" id="products">

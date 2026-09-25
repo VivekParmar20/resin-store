@@ -1,6 +1,7 @@
 # Resin Store
 
 Full-stack e-commerce website built with MERN.
+Link : https://resin-store-1.onrender.com/
 
 ## Features
 - Product browsing
